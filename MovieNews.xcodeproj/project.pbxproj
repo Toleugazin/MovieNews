@@ -15,6 +15,8 @@
 		D01460C725175A7800CDA013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01460C525175A7800CDA013 /* LaunchScreen.storyboard */; };
 		D01460D225175A7800CDA013 /* MovieNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01460D125175A7800CDA013 /* MovieNewsTests.swift */; };
 		D01460DD25175A7800CDA013 /* MovieNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01460DC25175A7800CDA013 /* MovieNewsUITests.swift */; };
+		D01460EB2517619F00CDA013 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01460EA2517619E00CDA013 /* CellTableViewCell.swift */; };
+		D01460ED25176B8100CDA013 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01460EC25176B8100CDA013 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D01460D825175A7800CDA013 /* MovieNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01460DC25175A7800CDA013 /* MovieNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieNewsUITests.swift; sourceTree = "<group>"; };
 		D01460DE25175A7800CDA013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01460EA2517619E00CDA013 /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		D01460EC25176B8100CDA013 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				D01460BA25175A7300CDA013 /* AppDelegate.swift */,
 				D01460BC25175A7300CDA013 /* SceneDelegate.swift */,
 				D01460BE25175A7300CDA013 /* ViewController.swift */,
+				D01460EA2517619E00CDA013 /* CellTableViewCell.swift */,
 				D01460C025175A7300CDA013 /* Main.storyboard */,
+				D01460EC25176B8100CDA013 /* DetailViewController.swift */,
 				D01460C325175A7800CDA013 /* Assets.xcassets */,
 				D01460C525175A7800CDA013 /* LaunchScreen.storyboard */,
 				D01460C825175A7800CDA013 /* Info.plist */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D01460BF25175A7300CDA013 /* ViewController.swift in Sources */,
+				D01460EB2517619F00CDA013 /* CellTableViewCell.swift in Sources */,
+				D01460ED25176B8100CDA013 /* DetailViewController.swift in Sources */,
 				D01460BB25175A7300CDA013 /* AppDelegate.swift in Sources */,
 				D01460BD25175A7300CDA013 /* SceneDelegate.swift in Sources */,
 			);
